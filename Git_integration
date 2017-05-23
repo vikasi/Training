@@ -1,0 +1,30 @@
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+1. Download GitHub from https://git-for-windows.github.io/
+
+2. Create new repository on git hub
+
+3. install Git
+
+4. Open Git Bash
+
+5. Change current directory to your local project
+
+6. Initialize the local directory as a Git repository using following command.
+  $git init
+
+7. Add the files in your new local repository. This stages them for the first commit using following command.
+  $git add .
+
+8. Commit the files that you've staged in your local repository.
+  $git commit -m "Message here"
+
+9. Add files and folders to newlly created repository.
+  $git remote add origin "remote repository URL here"
+ 
+10. Sets the new remote
+    $git remote -v
+	
+
+11. Push the changes in your local repository to GitHub.
+   $git push origin master
